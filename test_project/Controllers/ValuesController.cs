@@ -30,7 +30,7 @@ namespace test_project.Controllers
         {
             if(value.Utterance == "hi")
             {
-                return Ok("Ярік бляяя бачок потік");
+                return Ok("{\"prediction\":{ \"topIntent\": \"Ярік бляяя бачок потік\"}}");
             }
             try
             {
