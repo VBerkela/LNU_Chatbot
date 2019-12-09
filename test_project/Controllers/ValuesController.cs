@@ -10,7 +10,12 @@ namespace test_project.Controllers
     [Route("api/[controller]")]
     [ApiController]
     public class ValuesController : ControllerBase
+<<<<<<< HEAD
     {
+=======
+    {
+        // GET api/values
+>>>>>>> 5281fb4596a6962f57ce97322ca4f16915fe0f87
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
@@ -26,9 +31,15 @@ namespace test_project.Controllers
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] ChatBotParametrs value)
         {
+<<<<<<< HEAD
             if(value.Utterance == "hi")
             {
                 return Ok("Hello!");
+=======
+            if(value.Utterance == "hi")
+            {
+                return Ok("{\"prediction\":{ \"topIntent\": \"Ярік бляяя бачок потік\"}}");
+>>>>>>> 5281fb4596a6962f57ce97322ca4f16915fe0f87
             }
             try
             {
