@@ -1,0 +1,46 @@
+﻿<Properties StartupConfiguration="{E737792E-492F-4914-8BE2-30B46CBA82AC}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="test_project/Startup.cs">
+    <Files>
+      <File FileName="test_project/Controllers/ValuesController.cs" Line="6" Column="29" />
+      <File FileName="test_project/Startup.cs" Line="1" Column="1" />
+      <File FileName="test_project/Models/ChatBotParametrs.cs" />
+      <File FileName="../../work/predict-with-rest/Program.cs" />
+      <File FileName="test_project/Program.cs" />
+      <File FileName="test_project/Services/CallBotService.cs" />
+      <File FileName="test_project/appsettings.json" />
+      <File FileName="test_project/appsettings.Development.json" />
+      <File FileName="test_project/index.html" />
+      <File FileName="test_project/Properties/launchSettings.json" />
+      <File FileName="test_project/Controllers/FilePathResult.cs" />
+      <File FileName="test_project/Views/index.html" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="test_project" expanded="True">
+            <Node name="test_project" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Properties" expanded="True" />
+              <Node name="Services" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Values" expanded="True" />
+              </Node>
+              <Node name="Startup.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.test__project PreferredExecutionTarget="MonoDevelop.Default" />
+</Properties>

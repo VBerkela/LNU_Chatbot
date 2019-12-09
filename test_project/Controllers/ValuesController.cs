@@ -11,7 +11,6 @@ namespace test_project.Controllers
     [ApiController]
     public class ValuesController : ControllerBase
     {
-        // GET api/values
         [HttpGet]
         public ActionResult<IEnumerable<string>> Get()
         {
@@ -24,13 +23,12 @@ namespace test_project.Controllers
             return "Hello World";
         }
 
-        // POST api/values
         [HttpPost]
         public async Task<IActionResult> Post([FromBody] ChatBotParametrs value)
         {
             if(value.Utterance == "hi")
             {
-                return Ok("Ярік бляяя бачок потік");
+                return Ok("Hello!");
             }
             try
             {
@@ -43,13 +41,11 @@ namespace test_project.Controllers
             }
         }
 
-        // PUT api/values/5
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
         }
 
-        // DELETE api/values/5
         [HttpDelete("{id}")]
         public void Delete(int id)
         {
